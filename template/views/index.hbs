@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="/images/download.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+            <h1>Handlebrs dynamic templates syntax</h1>
+            <h3>{{title}}</h3>
+            <h3>{{author}}</h3>
+
+            <form>
+                <input type="text" placeholder="please enter id">
+                <button>submit</button>
+            </form>
+
+            <div>
+                <h2 style="color : red " id="title-user"></h2>
+            </div>
+    </div>
+
+    {{>footer}}
+    <script src="/js/index.js"></script>
+
+</body>
+</html>
